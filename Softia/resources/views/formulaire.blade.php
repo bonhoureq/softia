@@ -3,7 +3,7 @@
 <head>
     <link href="css/formulaire.css" rel="stylesheet" type="text/css">
     <title>FormationPlus</title>
-    <link href="./logo.png"  rel="icon" />
+    <link href="image/logo_softia.png"  rel="icon" />
 </head>
 <body>
     <section class="encadrement">

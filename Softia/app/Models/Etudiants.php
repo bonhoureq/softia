@@ -11,7 +11,7 @@ class Etudiants extends Model
 {
     use HasApiTokens, HasFactory, Notifiable;
 
-    protected $fillable = ["nom", "prenom", "mail", "attestations_id"];
+    protected $fillable = ["nom", "prenom", "mail", "conventions_id"];
     protected $guarded = [];
     public function attestion()
     {
