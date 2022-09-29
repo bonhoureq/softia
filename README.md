@@ -40,7 +40,7 @@ Félicitation vous avez entièrement configuré le projet afin de pouvoir l'util
 
 # Procédure pour lancer le projet :
 
-- Afin de pouvoir lancer le projet effectuer la commande suivante :
+- Afin de pouvoir lancer le projet effectuer la commande suivante dès lorsque vous êtes dans le dossier du projet "Softia" :
 
   > php artisan serv
 
