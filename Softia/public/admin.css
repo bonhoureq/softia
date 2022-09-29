@@ -1,0 +1,52 @@
+
+video
+{
+    z-index: -2;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: -15px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.encadrement
+{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    animation-name: back;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+}
+
+form {
+    padding: 7%;
+    border-radius: 20px;
+}
+
+.champ input, textarea {
+    display:block;
+    margin: 10px auto;
+    width: 300px;
+    padding: 6px 10px;
+    border:none;
+    box-sizing: border-box;
+    font-family: 'Fredericka the Great', cursive;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.295);
+}
+
+.title
+ {
+    margin: 10%;
+    margin-top: 10%;
+    text-align: center;
+    font-family: 'Fredericka the Great', cursive;
+    color: rgba(255, 255, 255, 0.295);
+}
+
