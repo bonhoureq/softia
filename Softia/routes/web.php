@@ -22,4 +22,4 @@ Route::get('/', function () {
     return view('formulaire', ['data' => $data], ['convention' => $convention]);
 });
 
-
+Route::post('/', [AttestationController::class, 'add'])->name('sendform');

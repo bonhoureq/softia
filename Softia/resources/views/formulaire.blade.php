@@ -7,7 +7,9 @@
 </head>
 <body>
     <section class="encadrement">
-    <form>
+    {{-- <form action="{{Route('sendform')}}" method="POST"> --}}
+        <form>
+
         <h1 class="title">Attestation :</h1>
 
         <select name="Etudiants">
@@ -17,7 +19,7 @@
             @endforeach
             @foreach($convention as $key => $convention)
             <input type="text" name="convention" value="{{$convention->nom}}" disabled="disabled"/>
-            <textarea name="message" disabled="disabled">Bonjour {{$data->prenom}} {{$data->nom}},
+            <textarea name="message" >Bonjour {{$data->prenom}} {{$data->nom}},
 
             Vous avez suivi {{$convention->nbHeur}} heures de formation chez FormationPlus.
             Pouvez-vous nous retourner ce mail avec la pièce jointe signée.
@@ -29,7 +31,8 @@
             </div>
         </select>
 
-        <input type="submit" value="Valider le message.">
+        <button type="submit" name="submit">Valider le message.</button>
+
 
     </form>
     </section>

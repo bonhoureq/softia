@@ -24,7 +24,8 @@ form {
 
 input,
 select,
-option {
+option,
+button {
     text-align: center;
     color: black;
     display: block;
